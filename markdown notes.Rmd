@@ -1,0 +1,66 @@
+---
+title: "markdown notes"
+author: "EnCi"
+date: "2020/5/20"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+# 一级标题，记住#号后面要有空格
+## 二级标题
+### 三级标题（最多六级标题）
+
+
+1. 列表内容
+2. 33
+3. 333
+4. 3333
+
+- 无序列表
+- 可以无序
+- *-+都可以
+
+
+# **加粗** 
+# *斜体*
+# ~~删除线~~
+# 
+[百度](https://www.baidu.com/)
+
+# 图片![鼠标放在上面显示什么字 图片下面的文字](地址)
+
+
+```{r cars}
+#{r,这个里面的R语言可以更改，比如换成python cars是人为批注}
+summary(cars)
+```
+
+
+
+```{r}
+library(leaflet)
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
