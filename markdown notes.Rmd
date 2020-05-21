@@ -97,6 +97,7 @@ Content Cell  | Content Cell
 
 ```{r cars}
 #{r,这个里面的R语言可以更改，比如换成python cars是人为批注}
+#这个可以用raw data processed data  或者每个步骤产生什么来命名
 summary(cars)
 ```
 
@@ -104,6 +105,7 @@ summary(cars)
 
 ```{r}
 library(leaflet)
+#网页上可交互的地图
 ```
 
 
